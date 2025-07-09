@@ -1,0 +1,26 @@
+{
+  "name": "Discord-js-v13-template-for-glitch",
+  "version": "13",
+  "description": "It is template of Discord.js v13.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.16.0",
+    "discord-modals": "^1.3.9",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.2"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/discord-js-v13-template-glitch"
+  },
+  "keywords": [
+    "node",
+    "glitch",
+    "template"
+  ]
+}
