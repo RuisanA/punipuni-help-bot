@@ -226,7 +226,7 @@ client.on("interactionCreate", async (interaction) => {
       .setTimestamp();
 
     // メッセージ送信先チャンネル
-    const targetChannel = client.channels.cache.get('1281956674260697118'); // 送信先のチャンネルIDを指定
+    const targetChannel = client.channels.cache.get('1388777085941715055'); // 送信先のチャンネルIDを指定
 
     if (targetChannel) {
       await targetChannel.send({
@@ -236,7 +236,7 @@ client.on("interactionCreate", async (interaction) => {
       
       cooldowns.set(interaction.user.id, Date.now() + 300000);
       
-      await interaction.reply({ content: `<#1281956674260697118>に送信されました`, ephemeral: true });
+      await interaction.reply({ content: `<#1388777085941715055>に送信されました`, ephemeral: true });
     } else {
       await interaction.reply({ content: "送信先チャンネルが見つかりません", ephemeral: true });
     }
