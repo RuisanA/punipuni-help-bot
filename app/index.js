@@ -217,7 +217,7 @@ client.on("interactionCreate", async (interaction) => {
       .addFields(
         { name: "フレンドコード", value: friendCode, inline: true },
         { name: "レベル", value: level, inline: true },
-        { name: "ひと言", value: talk }
+        { name: "ひと言", value: talk || "なし" }
       )
       .setFooter({
         text: `送信者: ${interaction.user.tag}`,
